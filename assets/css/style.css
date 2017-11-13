@@ -1,5 +1,5 @@
 body{
-	width: 960px;
+	width: 100%;
 	background-image:url("../images/spiration dark.png"); 
 }
 
@@ -13,9 +13,14 @@ header{
 }
 
 h2{
-	float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
+	color: #4aaaa5;
+}
+
+h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
 	color: #4aaaa5;
 }
 
@@ -26,17 +31,18 @@ h2{
     color: white;
     height: 75px;
     width: 200px;
-    margin-right: 200px;
+    margin-left: 30px;
+    margin-right: 500px;
     position: relative;
     left: 30px;
 }
 
 .nav{
 	float: left;
-	right: -20px;
+	right: 25px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .navtext{
@@ -50,22 +56,39 @@ h2{
 }
 
 .innerbox{
+	margin-left: 30px;
 	clear: both;
 	overflow: auto;
 	background-color: #ffffff;
 	width: 650px;
 	height: auto;
 	float: left;
-	margin-top: 30px;
+
 }
 
 .asideconnectbox {
-          
-
+    width: 270px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 50px;
+    float: right;
+	background-color: #ffffff
 }
 
 p{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	text
+}
+
+.footer {
+	margin-top: 35px;
+	clear: both;
+	overflow: auto;
+	width: 100%
+	background-color: #666666;
+	height: 150px;
+	color: lightgrey;
+	text-decoration: none;
+	bottom: 0;
 }
