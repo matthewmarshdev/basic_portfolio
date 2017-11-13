@@ -1,3 +1,71 @@
 body{
-	
+	width: 960px;
+	background-image:url("../images/spiration dark.png"); 
+}
+
+header{
+	text-align: center;
+	vertical-align: center;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+
+}
+
+h2{
+	float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+.headerbox{
+
+	justify-content: center;
+    background-color: #4aaaa5;
+    color: white;
+    height: 75px;
+    width: 200px;
+    margin-right: 200px;
+    position: relative;
+    left: 30px;
+}
+
+.nav{
+	float: left;
+	right: -20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: lightgrey;
+	margin-top: 50px;
+}
+
+.navtext{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.headandnavbox{
+	width: 100%;
+    background-color: #ffffff;
+}
+
+.innerbox{
+	clear: both;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 650px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+}
+
+.asideconnectbox {
+          
+
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text
 }
