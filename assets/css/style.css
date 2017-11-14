@@ -20,15 +20,18 @@ h3{
 	color: #4aaaa5;
 }
 
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text
+}
+
+
 .headandnavbox{
-	margin: 0;
-	position: relative;
+	position: fixed;
 	width: 100%;
 	height: 90px;
-	border-width: 2px;
-	border-style: dotted;
-	border-color: red;
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 .headerbox{
@@ -36,11 +39,12 @@ h3{
 	text-align: center;
     background-color: #4aaaa5;
     color: white;
-    height: 75px;
+    height: 57px;
     width: 200px;
     margin-top: 15px;
     margin-left: 20px;
     position: absolute;
+    padding-top: 21px;
     left: 20px;
 }
 
@@ -49,7 +53,7 @@ h3{
 	float: right;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
-	margin-top: 30px;
+	margin-top: 38px;
 	margin-right: 50px;
 }
 
@@ -61,7 +65,7 @@ h3{
 .aboutbox{	
 	clear: both;
 	overflow: auto;
-	margin-top: 60px;
+	margin-top: 120px;
 	margin-left: 30px;
 	margin-bottom: 30px;
 	background-color: #ffffff;
@@ -75,7 +79,7 @@ h3{
 }
 
 #image1 {
-	height: 240px;
+	height: 150px;
 	width: 150px;
 	float: left;
 	margin-left: 30px;
@@ -84,7 +88,7 @@ h3{
 .asideconnectbox {
     width: 270px;
     height: auto;
-    margin-top: 60px; 
+    margin-top: 120px; 
     margin-right: 300px;
     float: right;
     border-color: #dddddd;
@@ -94,11 +98,6 @@ h3{
 	text-align: center;
 }
 
-p{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	text
-}
 
 .footer {
 	margin-top: 475px;
