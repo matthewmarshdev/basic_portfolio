@@ -30,13 +30,12 @@ p{
 }
 
 aside {
-	position: absolute;
-	right: 25px;
+	position: relative;
+	float: left;
     width: 270px;
     height: auto;
     margin-top: 120px; 
     margin-left: 5px;
-    float: right;
     border-color: #dddddd;
     border-style: solid;
     border-width: 2px;
@@ -71,13 +70,14 @@ form {
 }
 
 .headandnavbox{
-	position: fixed;
-	width: 100%;
+	position: absolute;
+	/*width: 100%;*/
 	height: 90px;
 	border-bottom: 2px;
 	border-color: #dddddd;
 	border-style: solid;
 	background-color: #ffffff;
+	z-index: 3;
 }
 
 .headerbox{
@@ -89,18 +89,18 @@ form {
     width: 200px;
     margin-top: 15px;
     margin-left: 20px;
-    position: absolute;
-    padding-top: 21px;
-    left: 20px;
+    position: relative;
+    padding-top: 20px;
 }
 
 .nav{
-	
+	position: relative;
+	margin-top: 40px;
+	margin-left: 350px;
+	margin-right: 25px;
 	float: right;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
-	margin-top: 38px;
-	margin-right: 50px;
 }
 
 .navtext{
@@ -112,7 +112,7 @@ form {
 	clear: both;
 	overflow: auto;
 	margin-top: 120px;
-	margin-left: 30px;
+	margin-left: 5px;
 	margin-bottom: 30px;
 	background-color: #ffffff;
 	width: 650px;
@@ -122,6 +122,7 @@ form {
 	border-color: #dddddd;
 	border-width: 2px;
 	box-shadow: 10px 10px 5px lightgrey;
+	z-index: 2;
 
 
 }
@@ -154,7 +155,6 @@ form {
 }
 
 .footer {
-	position: absolute;
 	bottom: 0;
 	clear: both;
 	overflow: auto;
@@ -166,6 +166,7 @@ form {
 	text-decoration: none;
 	vertical-align: center;
 	color: white
+	z-index: 1;
 }
 
 .column {
