@@ -4,9 +4,7 @@ body{
 	background-image:url("../images/round.png"); 
 }
 
-.contentarea{
-    width: 940px;
-}
+
 
 header{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -44,6 +42,7 @@ aside {
     border-width: 2px;
 	background-color: #ffffff;
 	text-align: center;
+	box-shadow: 10px 10px 5px lightgrey;
 }
 
 
@@ -51,18 +50,19 @@ input{
 	color: grey;
 }
 
-#largebox{
-	height: 200px;
-}
 
 form {
 	padding-left: 20px;
 	padding-bottom: 20px;
-	box-shadow: 10px 10px 5px #888888;
+	
 }
 
 .p1 {
 	color: white;
+}
+
+.contentarea{
+    width: 940px;
 }
 
 .contactheadtext{
@@ -74,6 +74,9 @@ form {
 	position: fixed;
 	width: 100%;
 	height: 90px;
+	border-bottom: 2px;
+	border-color: #dddddd;
+	border-style: solid;
 	background-color: #ffffff;
 }
 
@@ -118,6 +121,8 @@ form {
 	border: solid;
 	border-color: #dddddd;
 	border-width: 2px;
+	box-shadow: 10px 10px 5px lightgrey;
+
 
 }
 
@@ -142,12 +147,11 @@ form {
 	border-width: 2px;
 	padding-bottom: 20px;
 	padding-left: 10px;
-
-
 }
 
-
-
+#largebox{
+	height: 200px;
+}
 
 .footer {
 	position: absolute;
@@ -162,4 +166,21 @@ form {
 	text-decoration: none;
 	vertical-align: center;
 	color: white
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
