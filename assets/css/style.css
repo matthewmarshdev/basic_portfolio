@@ -1,7 +1,11 @@
 body{
-	width: 100%;
+	width: 960px;
 	margin: 0;
 	background-image:url("../images/round.png"); 
+}
+
+.contentarea{
+    width: 940px;
 }
 
 header{
@@ -27,6 +31,44 @@ p{
 	text
 }
 
+aside {
+	position: absolute;
+	right: 25px;
+    width: 270px;
+    height: auto;
+    margin-top: 120px; 
+    margin-left: 5px;
+    float: right;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 2px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+
+input{
+	color: grey;
+}
+
+#largebox{
+	height: 200px;
+}
+
+form {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.p1 {
+	color: white;
+}
+
+.contactheadtext{
+	font-size: 20px;
+	color: #777777;
+}
 
 .headandnavbox{
 	position: fixed;
@@ -99,31 +141,25 @@ p{
 	border-color: darkgrey;	
 	border-width: 2px;
 	padding-bottom: 20px;
+	padding-left: 10px;
+
 
 }
 
-.asideconnectbox {
-    width: 270px;
-    height: auto;
-    margin-top: 120px; 
-    margin-left: 30px;
-    float: left;
-    border-color: #dddddd;
-    border-style: solid;
-    border-width: 2px;
-	background-color: #ffffff;
-	text-align: center;
-}
+
 
 
 .footer {
-	margin-top: 475px;
+	position: absolute;
+	bottom: 0;
 	clear: both;
 	overflow: auto;
 	width: 100%;
-	background-color: #666666;
 	height: 100px;
+	background-color: #666666;	
 	color: lightgrey;
+	text-align: center;
 	text-decoration: none;
-	bottom: 0;
+	vertical-align: center;
+	color: white
 }

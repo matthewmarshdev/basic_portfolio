@@ -1,38 +1,64 @@
+<reset.css>
 <!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="reset.css">
 	<title>Portfolio Index Page</title>
 
 </head>
-<body>
-	<div class="headandnavbox">
-	<header class="headerbox">Matthew Marsh</header>
-	<nav class="nav">
-		<a class="navtext" href="index.html">About Me</a>  | 
-		<a class="navtext" href="portfolio.html">Portfolio</a>  |  
-		<a class="navtext" href="contact.html">Contact</a> 
-	</nav>
-    </div>
-    
-	<section class="innerbox">
-		<h2>About Me</h2>
-	</br></br>
-		<p>
-		--------------------------------------</p>
-	</br>
-		<p>Hello! My name is Matthew Marsh, and I am a Salesforce Developer based in Denver, Colorado! Thank you for having a look at my profile, as well as connecting with me in the links provided. I hope you have a great day!
-	</section>
 
-	<section class="asideconnectbox">
-		<h3>something something</h3>
-	</section> 
+<body>
+
+
+	<div class="contentarea">
+	<div class="headandnavbox">
+		<header class="headerbox">Matthew Marsh</header>
+		<nav class="nav">
+			<a class="navtext" href="index.html">About Me</a>  | 
+			<a class="navtext" href="portfolio.html">Portfolio</a>  |  
+			<a class="navtext" href="contact.html">Contact</a> 
+		</nav>
+    </div>
+
+
+
+	<section class="aboutbox">
+		<h2 id="aboutmeborder">Contact</h2></br>
+			
+			<form action="/action_page.php">
+				<div class="contactheadtext">Name</div></br>
+  				<input type="text" name="name" size="45" value="  John Snow"></br></br>
+  				<div class="contactheadtext">Email</div></br>
+  				<input type="text" name="email" size="45" value="  Text@example.com"></br></br>
+  				<div class="contactheadtext">Message</div></br>
+  				<input id="largebox" type="text" name="email" size="45" value="  Text@example.com"></br>
+			</form>
+    </section>
+	
+
+	<aside>
+		<h3>Connect with Me</h3>
+
+		<div class="linkbox">
+			<a href="github.com">
+	  			<img src="assets/images/githubsmall.png" alt="github" >
+			</a>
+			<a href="github.com">
+	  			<img src="assets/images/githubsmall.png" alt="github" style="width:42px;height:42px;border:0;">
+			</a>
+			<a href="github.com">
+	  			<img src="assets/images/githubsmall.png" alt="github" style="width:42px;height:42px;border:0;">
+			</a>
+		</div>
+	</aside> 
 
 	<footer class="footer">
-		
+		<p class="p1"></br> copyright 2017 Matthew Marsh</p>
 	</footer>
 
 
+</div>
 
 </body>
 
