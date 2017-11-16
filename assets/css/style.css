@@ -71,7 +71,7 @@ form {
 
 .headandnavbox{
 	position: absolute;
-	/*width: 100%;*/
+	width: 100%;
 	height: 90px;
 	border-bottom: 2px;
 	border-color: #dddddd;
@@ -123,14 +123,12 @@ form {
 	border-width: 2px;
 	box-shadow: 10px 10px 5px lightgrey;
 	z-index: 2;
-
-
 }
 
 .linkbox{
-	float: left
 	margin-left: 20px;
 	margin-bottom: 20px;
+	height: 60px;
 }
 
 #image1 {
@@ -171,7 +169,7 @@ form {
 
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px;
 }
 
@@ -184,4 +182,15 @@ form {
     content: "";
     display: table;
     clear: both;
+}
+
+.image {
+	object-position: relative;
+}
+
+.profileimgtextbox{
+	position: absolute;
+	height: 30px;
+	text-align: center;
+	background-color:#4aaaa5;
 }
