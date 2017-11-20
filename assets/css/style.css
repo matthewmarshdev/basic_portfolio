@@ -182,20 +182,21 @@ form {
 	float: left;
 	position: relative;
 	text-align: center;
-
-background-color: #4aaaa5;
 	width: 250px;
 	margin-left: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	z-index: 3;
 }
 
 .bottom-right {
 	font-size: 27px;
-	color: #777777;
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 20px;
 }
+
 .profimg{
 
 	width: 250px;
