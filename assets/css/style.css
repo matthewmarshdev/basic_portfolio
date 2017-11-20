@@ -112,6 +112,7 @@ form {
 }
 
 .aboutbox{	
+	position: relative;
 	clear: both;
 	overflow: auto;
 	margin-top: 120px;
@@ -170,30 +171,42 @@ form {
 	z-index: 1;
 }
 
-.column {
-    float: left;
-    width: 45%;
-    padding: 10px;
-}
-
-.column img {
-    margin-top: 12px;
-    width: 100%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.image {
-	object-position: relative;
-}
-
 .profileimgtextbox{
 	position: absolute;
 	height: 30px;
 	text-align: center;
 	background-color:#4aaaa5;
+}
+
+.container{
+	float: left;
+	position: relative;
+	text-align: center;
+
+background-color: #4aaaa5;
+	width: 250px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+.bottom-right {
+	font-size: 27px;
+	color: #777777;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.profimg{
+
+	width: 250px;
+	height: 210px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.div1{
+	width: 100%
+	background-color: #4aaaa5;
+	height: 30px;
+	bottom: 0;
 }
